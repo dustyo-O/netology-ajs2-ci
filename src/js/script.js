@@ -6,7 +6,7 @@ export function calculateTotal(purchases) {
 }
 
 export function getHtmlTag(tagName) {
-  if (!['div', 'img', 'p', 'a', 'section'].includes(tagName)) return;
+  if (!['div', 'img', 'p', 'a', 'section'].includes(tagName)) return '';
 
   if (tagName === 'img') {
     return `<${tagName}>`;

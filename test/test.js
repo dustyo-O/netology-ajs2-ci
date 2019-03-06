@@ -17,5 +17,5 @@ test('should make short tag', () => {
 test('should return undefined if tag does not exists', () => {
   const received = getHtmlTag('ololo');
 
-  expect(received).toBeUndefined();
+  expect(received).toBeFalsy();
 });
